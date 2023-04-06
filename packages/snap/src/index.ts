@@ -19,10 +19,10 @@ export const onRpcRequest: OnRpcRequestHandler = ({ origin, request }) => {
         params: {
           type: 'Confirmation',
           content: panel([
-            text(`Hello, **${origin}**!`),
-            text('This custom confirmation is just for display purposes.'),
+            text(`Yo beautiful being, **${origin}**!`),
+            text('Welcome to the snap world!'),
             text(
-              'But you can edit the snap source code to make it do something, if you want to!',
+              'An eternal meta-snap, flapping in wind of the cosmos, with a single purpose: to say hello to you!',
             ),
           ]),
         },
